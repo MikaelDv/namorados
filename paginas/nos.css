@@ -55,35 +55,36 @@ a:hover{
     width: 44px;
     height: 44px;
 }
-.wrapper{
-    margin-top: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 100vh; 
-    margin-bottom: 680px;
-}
-.texto{
-    margin-top: 164px;
+.content{
+    margin-top: 168px;
     font-size: 20px;
     color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 100px;
 }
-.images{
-    display: flex;
-    flex-wrap: wrap;
+.texto {
+    border: 3px solid #8b000079;
+    background-color: #8b000079;
+    padding: 20px;
+    width: 1100px; 
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 20px;
-    width: 1760px;
-    height: auto;
+}
+h1{
+    margin: 68px;
+}
+p{
+    padding: 10px;
+}
+.fotinho{
+    border-radius: 90px;
+    width: 180px;
+    height: 180px;
+}
+.fototexto{
+    display: flex;
     justify-content: center;
-}
-.foto1,.foto2,.foto3,.foto4,.foto5,.foto6,.foto7,.foto8,.foto9,.foto10{
-    transition: filter 0.8s ease;
-    border-radius: 30px;
-    width: calc(100% / 4);
-    box-sizing: border-box; 
-    padding: 15px;
-}
-.foto1:hover,.foto2:hover,.foto3:hover,.foto4:hover,.foto5:hover,.foto6:hover,.foto7:hover,.foto8:hover,.foto9:hover,.foto10:hover{
-    filter: brightness(70%);
+    align-items: center;
+    margin-bottom: 40px;
 }
