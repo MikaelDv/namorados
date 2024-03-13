@@ -56,18 +56,21 @@ a:hover{
     height: 44px;
 }
 .content{
+    margin-top: 120px;
+    padding-top: calc(25% / 2);
+    padding-bottom: calc(25% / 2);
     display: flex;
-    margin: 240px;
-    text-align: center;
+    text-align: left;
     align-items: center;
-    justify-content: space-between;
+    gap: 40px;
+    justify-content: center;
 
 }
 .jukael{
     font-size: 100px;
 }
 .bemvindo{
-    text-align: center;
+    text-align: left;
     color: rgb(255, 255, 255);
 }
 .amor{
@@ -79,4 +82,9 @@ a:hover{
 }
 .amor:hover{
     filter: brightness(70%);
+}
+pre{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 71px;
 }
