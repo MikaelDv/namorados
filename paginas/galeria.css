@@ -6,6 +6,7 @@
 }
 body{
     background-color: #db9393;
+    overflow-x: hidden;
 }
 header{
     background-color: #8b0000;
@@ -55,13 +56,19 @@ a:hover{
     width: 44px;
     height: 44px;
 }
+main {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    gap: 48px;
+}
 .wrapper{
-    margin-top: 600px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 100vh; 
-    margin-bottom: 680px;
+    width: 100vw;
 }
 .texto{
     margin-top: 164px;
@@ -73,15 +80,13 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     border-radius: 20px;
-    width: 1760px;
     height: auto;
     justify-content: center;
 }
 .foto1,.foto2,.foto3,.foto4,.foto5,.foto6,.foto7,.foto8,.foto9,.foto10{
     transition: filter 0.8s ease;
     border-radius: 30px;
-    width: calc(100% / 4);
-    box-sizing: border-box; 
+    width: 350px;
     padding: 15px;
 }
 .foto1:hover,.foto2:hover,.foto3:hover,.foto4:hover,.foto5:hover,.foto6:hover,.foto7:hover,.foto8:hover,.foto9:hover,.foto10:hover{
